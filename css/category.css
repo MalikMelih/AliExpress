@@ -1,0 +1,773 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a
+{
+	color: #4A90E2;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #e62e04;
+}
+body
+{
+	margin: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: 'Open Sans','Arial','Helvetica,sans-serif,SimSun';
+}
+.active
+{
+	color: #f60;
+}
+.down-arrow
+{
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-image: url("../img/icons/down-arrow.png");
+}
+#body
+{
+	padding: 0 10px;
+	margin: auto;
+	width: 1328px;
+	overflow: auto;
+	min-width: 1328px;
+}
+#orange
+{
+	color: #f26522;
+}
+
+/* TopBar Başlangıcı */
+
+#banner
+{
+	margin: auto;
+	width: 100%;
+	height: 80px;
+	background-image: url(https://ae01.alicdn.com/kf/HTB1JTGdXsrrK1RjSspa763REXXaA.png);
+}
+#topbar
+{
+	width: 100%;
+	height: 36px;
+	margin: auto;
+	font-size: 12px;
+	min-width: 1200px;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #e9e9e9;
+}
+	#topbar-body
+	{
+		margin: auto;
+		width: 1200px;
+		overflow:auto;
+	}
+		#language-buton
+		{
+			color: #999;
+			float: right;
+			height: 36px;
+			overflow:auto;
+			padding: 0 15px;
+			border-right: 1px solid #e9e9e9;
+		}
+		#lb-end
+		{
+			color: #999;
+			float: right;
+			height: 36px;
+			overflow:auto;
+			padding: 0 0 0 15px;
+		}
+		#lb-text
+		{
+			float: left;
+			color: #999;
+			margin-top: 11px;
+		}
+		#lb-arrow
+		{
+			float: left;
+			margin: 4px -10px 0 -2px;
+			height: 28px;
+			width: 28px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-image: url(../img/topbar/bottom-arrow.png);
+		}
+		#lb-flag
+		{
+			float: left;
+			width: 30px;
+			height: 21px;
+			margin: 9px 0 0 -2px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-image: url(../img/topbar/flag_turkey.png);
+		}
+			#lbf-text
+			{
+				float: left;
+				color: #999;
+				margin: 11px 0 0 5px;
+			}
+		#phone
+		{
+			overflow: auto;
+			margin-left: -6px;
+			padding-left: 22px;
+			padding-bottom: 5px;
+			background-repeat: no-repeat;
+			background-position: left 4px;
+			background-image: url(../img/topbar/phone.png);
+		}
+
+/* TopBar Bitişi */
+
+/* NavBar Başlangıcı */
+
+#navbar
+{
+	width: 100%;
+	min-width: 1200px;
+	background-color: white;
+	border-bottom: 1px solid #e9e9e9;
+}
+		#logo-bar
+		{
+			float: left;
+			width: 240px;
+			text-align: center;
+			padding: 23px 0 0 0;
+			margin-bottom: 21px;
+		}
+			#logo
+			{
+				height: 40px;
+				background-repeat:no-repeat;
+				background-position:20px center;
+				background-image: url(../img/navbar/logo.png);
+			}
+			#logo-2
+			{
+				height: 104px;
+				background-size: cover;
+				background-repeat:no-repeat;
+				background-position:center center;
+				background-image: url(../img/navbar/logo-2.gif);
+			}
+			#slogan
+			{
+				color: #999;
+				width: 240px;
+				height: 15px;
+				margin-top: 3px;
+				font-size: 11px;
+				line-height: 12px;
+				margin-bottom: 32px;
+			}
+		#search
+		{
+			float: left;
+			width: 640px;
+		}
+			#s-body
+			{
+				float: left;
+				width: 640px;
+				height: 25px;
+				padding-top: 13px;
+				margin: 22px 0 0 0;
+				border: 1px solid #cbcbcb;
+				border-radius: 5px 0 0 5px;
+			}
+			#s-buton
+			{
+				float: left;
+				width: 48px;
+				height: 38px;
+				margin: 22px 0 0 0;
+				border: 1px solid red;
+				background-color: #e62e04;
+				border-radius: 0 3px 3px 0;
+				background-repeat: no-repeat;
+				background-position: center center;		
+				background-image: url(../img/navbar/search.png);
+			}
+					#s-text
+					{
+						float: left;
+						color: #666;
+						padding-left: 15px;
+						font-family: arial;
+						text-align: center;
+					}
+			#cat
+			{
+				float: left;
+			    width: 45px;
+			    border: 1px solid #e9e9e9;
+			    margin-left: -45px;
+			    border-radius: 3px;
+			    background-position: center center;
+			    background-size: cover;
+			    background-image: url(../img/navbar/category.png);
+			    height: 38px;
+			    margin-top: 22px;
+			    margin-right: 8px;
+			}
+			#nav-buton
+			{
+				float: left;
+				color: #333;
+				height: 80px;
+				font-size: 13px;
+				padding-left: 15px;
+			}
+				#cart
+				{
+					float: left;
+					color: #333;
+					overflow: auto;
+					margin-top: 27px;
+					text-align: right;
+					padding: 0 0 0 39px;
+					background-position: left;
+					background-repeat: no-repeat;
+					background-image: url(../img/navbar/cart.png);
+				}
+					#cart:hover
+					{
+						color: #e62e04;
+					}
+					#cart-num
+					{
+						width: 25px;
+						color: #fff;
+						padding: 0.4px;
+						border-radius: 8px;
+						text-align: center;
+						background-color: #e62e04;
+					}
+					#cart-text
+					{
+						margin-top: 1px;
+					}
+				#favori
+				{
+					float: left;
+					height: 65px;
+					margin-left: 10px;
+				}
+					#favori:hover
+					{
+						color: #e62e04;
+					}
+					#f-center
+					{
+						color: #333;
+						margin: 2px 0 0 5px;
+					}
+					#f-icon
+					{
+						margin-top: 21px;
+						padding: 5px 0 25px 44px;
+						background-repeat: no-repeat;
+						background-position: 13px 10px;
+						background-image: url(../img/navbar/favorite.png);
+					}
+				#user
+				{
+					float: left;
+					height: 70px;
+				}
+					#u-center
+					{
+						padding: 18px 0 0 7px;
+					}
+					#u-yazi:hover
+					{
+						color: #e62e04;
+					}
+					#bold:hover
+					{
+						color: #e62e04;
+					}
+					#bold
+					{
+						float: left;
+						color: #333;
+						font-weight: bold;
+						padding:0 7px 0 7px;
+						border-right: 1px solid #E9E9E9;
+					}
+					#u-yazi
+					{
+						float: left;
+						color: #333;
+						padding-left: 7px;
+					}
+					#u-icon
+					{
+						border-bottom: none;
+						padding: 25px 10px 6px 45px;
+						background-repeat: no-repeat;
+						border: 1px solid transparent;
+						background-position: 13px 27px;
+						background-image: url(../img/navbar/user.png);
+					}
+
+/* NavBar Bitişi */
+
+/* Filter Başlangıcı */
+
+#keywords-bar
+{
+	width: 100%;
+	height: 32px;
+	padding-top: 18px;
+	font-size: 13px;
+}
+#kb-title
+{
+	color: #666;
+	float: left;
+}
+#kb-num
+{
+	float: left;
+	padding: 0 3px;
+}
+#kb-search
+{
+	color: #ccc;
+	float: left;
+	width: 188px;
+	padding: 5px 4px;
+	font-size: 12px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#filter
+{
+	float: left;
+	overflow: auto;
+	width: 171px;
+	padding-right: 8px;
+	padding-bottom: 20px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+#category
+{
+	margin-bottom: 15px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+#cf-one-box
+{
+	border-bottom: 1px solid #ddd;
+	padding: 0 0 15px;
+	margin-top: 15px;
+}
+#cf-box
+{
+	padding: 0 0 15px;
+	margin-top: 15px;
+}
+#cf-title
+{
+	font-weight: 700;
+	font-size: 12px;
+	color: #333;
+	padding-left: 13px;
+	width: 100px;
+	margin-bottom: 13px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url("../img/icons/down-arrow.png");
+}
+#cf-label
+{
+	padding: 6px 10px 8px 0;
+	font-size: 12px;
+	font-weight: lighter;
+}
+	#cf-label:hover
+	{
+		color: #f90;
+	}
+#cf-active
+{
+	padding: 6px 10px 6px 13px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+}
+#cf-other
+{
+	padding: 8px 10px 0 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+	#cf-other:hover
+	{
+		color: #f90;
+	}
+#cf-custom
+{
+	color: #999;
+	float: right;
+	font-size: 12px;
+}
+	#cf-custom:hover
+	{
+		color: #f90;
+	}
+
+	/* Filter Sonu */
+
+	/* Main Başlangıcı */
+
+#main
+{
+	float: left;
+	width: 1118px;
+	margin-left: 30px;
+}
+	#m-title
+	{
+		float: left;
+		padding-top: 23px;
+		font-size: 13px;
+		color: #333;
+	}
+	#b-boxes
+	{
+		float: left;
+		width: 977px;
+		margin-right: 80px;
+		padding: 8px 0 10px 3px; 
+	}
+		#b-box
+		{
+			float: left;
+			width: 58px;
+			height: 25px;
+			padding: 5px;
+			border: 1px solid #ccc;
+			margin: 5px 5px 0 0;
+			border-radius: 3px;
+		}
+		#b-box:hover
+		{
+			border-color: #f60;
+		}
+		#bb-img
+		{
+			padding: 0 3px;
+			height: 100%;
+		}
+		#bb-text
+		{
+			padding: 6px 14px 0 14px;
+			font-weight: bold;
+			width: 30px;
+		}
+#filter-bar
+{
+	float: left;
+	width: 100%;
+	height: 46px;
+}
+	#fb-price
+	{
+		font-size: 13px;
+		float: left;
+		margin: 10px 0 10px 0;
+	}
+		#fbp-title
+		{
+			float: left;
+			padding-top: 4px;
+		}
+		#fbp-box
+		{
+			color: #ccc;
+			float: left;
+			width: 50px;
+			border-radius: 3px;
+			font-size: 12px;
+			padding: 5px 4px;
+			border: 1px solid #ccc;
+			margin: 0 3px;
+		}
+	#fb-options
+	{
+		float: left;
+		width: 800px;
+		height: 48px;
+		padding: 0 60px 0 20px;
+	}
+		#fbo-boxes
+		{
+			float: left;
+			height: 25px;
+			padding: 14px 20px 0 0;
+		}
+			#fbo-box
+			{
+				float: left;
+				width: 18px;
+				height: 18px;
+				border-radius: 3px;
+				border: 1px solid #ccc;
+			}
+			#fbo-text
+			{
+				float: left;
+				margin: 3px 0 0 3px;
+				font-size: 13px;
+			}
+			#fbo-text:hover
+			{
+				color: #f60;
+			}
+#view-filterbar
+{
+	float: left;
+	width: 100%;
+	height: 30px;
+	padding: 8px 0 20px 0;
+}
+	#vfb-title
+	{
+		float: left;
+		font-size: 13px;
+		margin-top: 6px;
+	}
+	#vfb-box
+	{
+		float: left;
+		width: 325px;
+		height: 21px;
+		padding-top: 7px;
+		border-radius: 3px;
+		margin-left: 3px;
+		border: 1px solid #ccc;
+	}
+		#vfb-box-items
+		{
+			float: left;
+			font-weight: bold;
+			padding: 0 8px;
+			border-right: 1px solid #ccc;
+		}
+			#vfb-box-items:hover
+			{
+				color: #f60;
+			}
+	#vfb-viewstyle
+	{
+		float: right;
+		height: 28px;
+		margin-right: 25px;
+	}
+
+#product-box
+{
+	float: left;
+	width: 1116px;
+	height: 180px;
+	padding: 30px 0;
+	border-top: 1px solid #eee;
+	font-size: 13px;
+}
+	#pb-img
+	{
+		float: left;
+		padding: 0 15px;
+	}
+		#pbi-size
+		{
+			max-height: 180px;
+			max-width: 180px;
+		}
+#pb-detail
+{
+	float: left;
+	width: 333px;
+	padding: 0 15px;
+}
+	#pb-name
+	{
+		float: left;
+		color: #036;
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	#pb-company
+	{
+		color: #666;
+		float: left;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-size: 13px;
+	}
+#pb-price
+{
+	float: right;
+	width: 513px;
+	padding: 0 15px;
+}
+	#pb-value-bar
+	{
+		float: left;
+		width: 100%;
+	}
+		#pb-value
+		{
+			float: left;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		#pb-unit
+		{
+			float: left;
+			color: #999;
+			font-size: 13px;
+			margin: 2px 0 0 3px;
+		}
+	#pb-cargo
+	{
+		width: 100%;
+		float: left;
+		color: #333;
+		font-weight: bold;
+		margin: 0 0 10px 0;
+	}
+	#pb-rate
+	{
+		width: 100%;
+		float: left;
+		color: #666;
+		font-size: 13px;
+		height: 27px;
+		margin: 0 0 10px 0;
+	}
+	#pb-favor
+	{
+		width: 100%;
+		float: left;
+		color: #666;
+		font-size: 13px;
+		padding-left: 20px;
+	}
+
+	/* Main Sonu */
+
+	/* Footer Başlangıcı */
+
+#footer
+{
+	margin: 0px;
+	margin-top: 30px;
+	padding-top: 30px;
+	min-width: 1200px;
+	background-color: #e8e8e8;
+}
+	#fbl-group-1
+	{
+		float: left;
+		min-height: 94px;
+	}
+	#fbl-group-2
+	{
+		float: left;
+		min-height: 69px;
+	}
+	#fbl-group-3
+	{
+		float: left;
+		padding: 10px 0 40px;
+	}
+		#dl-gp
+		{
+			float: left;
+			width: 95px;
+			color: #fff;
+			font-size: 16px;
+			font-weight: 600;
+			margin-right: 10px;
+			border-radius: 3px;
+			background-color: #a4c739;
+			padding: 7px 4px 5px 28px;
+			background-repeat: no-repeat;
+			background-position: 4px center;
+			background-image: url(../img/footer/android.png);
+		}
+		#dl-as
+		{
+			float: left;
+			width: 81.5px;
+			color: #fff;
+			font-size: 16px;
+			font-weight: 600;
+			margin-right: 10px;
+			border-radius: 3px;
+			background-color: #8c8c8c;
+			padding: 7px 4px 5px 28px;
+			background-repeat: no-repeat;
+			background-position: 6px center;
+			background-image: url(../img/footer/apple.png);
+		}
+		#f-labels
+		{
+			width: 50%;
+			float: left;
+		}
+			#fl-label
+			{
+				color: #333;
+				padding: 5px 0;
+				font-size: 16px;
+				margin-bottom: 5px;
+			}
+			#fl-text
+			{
+				float: left;
+				color: #999;
+				font-size: 13px;
+				margin-left: 3px;
+				padding: 1.5px 0;
+			}
+			#fl-text:hover
+			{
+				color: #f90;
+			}
+#footer-copyright
+{
+	color: #666;
+	margin: 0px;
+	height: 25px;
+	font-size: 13px;
+	padding-top: 10px;
+	min-width: 1200px;
+	background-color: #333;
+}
+	#fc-text
+	{
+		float: left;
+		color: #666;
+		font-size: 12px;
+		margin-left: 3px;
+	}
+
+	/* Footer Sonu */
